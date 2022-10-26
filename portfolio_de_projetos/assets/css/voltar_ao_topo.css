@@ -1,0 +1,15 @@
+.voltar_ao_topo {
+    margin-left: 2rem;
+    margin-top: 20rem;
+    position: fixed;
+}
+
+.voltar_ao_topo:hover {
+    cursor: pointer;
+}
+
+.voltar_ao_topo i {
+    color: rgb(0,0,0.25);
+    text-decoration: none;
+    text-transform: lowercase;
+}
