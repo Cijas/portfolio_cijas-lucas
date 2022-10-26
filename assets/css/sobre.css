@@ -1,0 +1,40 @@
+.container {
+    margin: 3rem 5rem;
+    padding: 2rem;
+    text-align: left;
+}
+
+.sobre {
+    background: #dae6f6;
+    background-size: 100vw;
+}
+
+.sobre__assinatura {
+    font-family: 'Fasthand', cursive;
+}
+
+.sobre__descricao {
+    font-size: .952rem;
+}
+
+.sobre__titulo {
+    font-family: var(--roboto);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0) {
+    .container {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin-right: 40%;
+    }
+}

@@ -1,0 +1,56 @@
+.formacao {
+    background: #dae6f6;
+    background-size: 100vw;
+}
+
+.formacao__titulo {
+    font-family: var(--roboto);
+    font-size: 1.4375rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.formacao__cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.curso {
+    text-align: left;
+}
+
+.cursos__logo {
+    background: white;
+    width: 250px;
+    height: 250px;
+}
+
+.cursos__nome {
+    font-family: var(--roboto);
+    font-size: 1.15rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.curso__periodo {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 0) {
+   .formacao__cursos {
+        align-content: center;
+        flex-direction: column;
+   } 
+
+   .curso{
+    margin-bottom: 2rem;
+   }
+}
+
+@media screen and (min-width: 768px) {
+    .formacao__cursos {
+        flex-direction: row;
+    }
+}

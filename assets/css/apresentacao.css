@@ -1,0 +1,107 @@
+.apresentacao {
+    align-items: center; 
+    flex-direction: row-reverse;
+    margin: 5rem 7rem;
+}
+
+.apresentacao__textos {
+    flex-direction: column;
+    font-family: var(--raleway);
+    margin: 2rem 5rem;
+    text-align: left;
+}
+
+.apresentacao__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.apresentacao__formacao {
+    font-size: 1.15rem;
+    font-weight: 100;
+}
+
+
+.apresentacao__social {
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.apresentacao__social-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.apresentacao__social-link .social-link {
+    color: #000010;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0) {
+    .apresentacao {
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 1rem auto;
+    }
+    
+    .apresentacao__foto--lucas {
+        display: none;
+    }
+
+    .apresentacao__social {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .apresentacao__social-link {
+        margin-bottom: 1rem;
+    }
+
+    .apresentacao__social-link .social-link {
+        color: #000010;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .apresentacao {
+        align-items: center; 
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        margin: 5rem 7rem;
+    }
+
+    .apresentacao__foto--lucas {
+        background: url(../img/profile/profile.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 100%;
+        display: inline-block;
+        height: 400px;
+        margin: 0 auto;
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .apresentacao {
+        flex-wrap: nowrap;
+    }
+    
+    .apresentacao__social-link {
+        font-size: 1.15rem;
+        font-weight: 100;
+        transition: all .8s ease-in-out; 
+        margin-right: 1.25rem;
+    }
+    
+    .apresentacao__social {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        text-decoration: none;
+    }
+}
