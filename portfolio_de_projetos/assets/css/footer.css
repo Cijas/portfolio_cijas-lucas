@@ -1,0 +1,30 @@
+footer {
+    display: block;
+    position: relative;
+    background: black;
+    text-align: center;
+    padding: 40px 0;
+    bottom: 0%;
+}
+
+.copyright {
+    color:white;
+    font-size:14px;
+    margin-top: 20px;
+}
+
+.copyright p {
+    padding: 1%;
+}
+
+@media screen and (min-width: 0) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
