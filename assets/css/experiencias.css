@@ -139,15 +139,33 @@
     .codificador {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .codificador__imagem {
         height: 300px;
-        width: 400px;
+        width: 100vw;
     }
 
     .codificador__textos {
+        margin: 2rem 5rem;
         text-align: center;
+    }
+
+    .codificador__interacao {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experiencias__codificador-botoes {
+        display: flex;
+        align-items: center;
+    }
+
+    .experiencias__jogo-da-forca-botoes {
+        display: flex;
+        align-items: center;
     }
 
     .jogo-da-forca {
@@ -166,8 +184,15 @@
 }
 
 @media screen and (min-width: 768px) {
+    
     .codificador__textos {
-        margin: 1rem;
+        flex-direction: column  ;
+       padding: 2rem;
+    }
+
+    .codificador-interacao {
+        display: flex;
+        flex-direction: column;
     }
 
     .jogo-da-forca__textos {
